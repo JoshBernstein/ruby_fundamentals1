@@ -1,3 +1,5 @@
+#Ask the user to enter their age, and then display a message telling them how many years apart in age you are from them. If they enter a number larger than 105, print "I'm not sure I believe you".
+
 puts "Please enter your age"
 my_age = 33
 your_age = gets.chomp.to_i

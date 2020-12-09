@@ -1,3 +1,5 @@
+#Greet someone by name, tell them what year they were born in based on age
+
 puts "What is your name?"
 user_name = gets.chomp
 puts "Hello, #{user_name}. How old are you?"
