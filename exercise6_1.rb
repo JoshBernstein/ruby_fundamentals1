@@ -6,7 +6,7 @@
 distance = 0
 exercising = true
 
-while exercising == true
+while exercising
     puts "Would you like to walk or run?"
     activity = gets.chomp
     if activity == "walk"

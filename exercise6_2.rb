@@ -9,7 +9,7 @@ distance = 0
 energy = 3
 exercising = true
 
-while exercising == true
+while exercising
     puts "Would you like to walk or run?"
     activity = gets.chomp
     if activity == "walk" && energy > 0
@@ -24,7 +24,7 @@ while exercising == true
         puts "you have entered a command that doesn't exist"
     end
     puts "Distance from home is #{distance}km."
-    while energy == 0
+    if energy == 0
         puts "You seem tired. Rest for a bit and have a snack to renergize.  Type '1' to eat an apple or '2' to drink a Red Bull."
         snack = gets.chomp.to_i
         if snack == 1
